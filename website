@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<title>JOJO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fbumiezhuanshi.png?v=1563747789310");
+  min-height: 75%;
+}
+
+.parts {
+  display: none;
+}
+</style>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ABOUT</a>
+    <a href="https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">WIKI</a>
+    <a href="https://jojo.fandom.com/wiki/Main_Page" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FANDOM</a>
+  </div>
+</div>
+
+<header class="bgimg w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:90px">JoJo's Bizarre Adventure</span>
+  </div>
+</header>
+
+
+<div class="w3-sand w3-large">
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT JOJO</span></h5>
+    <p>JoJo's Bizarre Adventure is a Japanese comic series written and illustrated by Hirohiko Araki. It’s one of the most famous and influential mangas ever, which was finally adapted into an anime in 2012. JoJo’s Bizarre Adventure is one the most outrageous and joyous series I have ever watched. You owe it to yourself to experience it. </p>
+    <p>Describing what JoJo’s Bizarre Adventure is about is much harder than describing its pedigree.</p>
+    <div class="w3-panel w3-leftbar">
+      <p><i>"What is "courage"? "Courage" is knowing fear and making that fear your own!"</i></p>
+      <p>--<strong>Will Anthonio Zeppeli</strong> Part1 Chapter 22</p>
+      
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FAAAABUfKk9q24A0SBqCRDJfliCKN-0lrE0RB2EcxsJOA_YfrSGdRcgdB_Lle83L3pcOnffjHPHy7axk8pa1gWK6s0F27bmmHEW0ZN4CbjZ1--bAb8FdmDI4-yQBeisgOdBIazZ6lwNnfJov2_IvFcgjl1IdkaU6Fj8_LPvM.png?v=1563840118788" style="width:100%;max-width:1000px" class="w3-margin-top">
+    </div>
+  </div>
+ </div>
+</div>
+  
+<div class="w3-sand w3-large w3-light-grey">
+ <div class="w3-container" id="parts">
+  <div class="w3-content" style="max-width:700px">
+  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">EACH PARTS</span></h5>
+   <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Phantom Blood</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FEpisode_2.png?v=1564537239114" style="width:100%">
+    <div class="w3-container">
+    <p>Phantom Blood is the first story arc of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from January to October 1987 for a total of 44 chapters. Originally known as JoJo's Bizarre Adventure Part 1 Jonathan Joestar: His Youth, it debuted in Shonen Jump double issue #1-2 on December 2, 1986. It was licensed and released in North America by VIZ Media.</p>
+    <p>The story follows Jonathan Joestar as he matures with and eventually combats his adoptive brother, the cunning and merciless Dio Brando.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Phantom_Blood" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Battle Tendency</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fs-l640.jpg?v=1564626586908" style="width:100%">
+    <div class="w3-container">
+    <p>Battle Tendency is the second story arc of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from November 1987 to March 1989. Originally titled JoJo's Bizarre Adventure Part 2 Joseph Joestar: His Proud Lineage, the arc is preceded by Phantom Blood and spans a total of 69 chapters.</p>
+    <p>Taking place in 1938-39, the story follows the misadventures of Joseph Joestar, grandson of Jonathan, as he masters his innate Ripple abilities in order to combat hostile, ancient super-beings named the Pillar Men, creators of the Stone Mask that plot to become the ultimate lifeforms.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Battle_Tendency" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    
+   <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Stardust Crusaders</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fda%20dio%20tuan.png?v=1563748783680" style="width:100%">
+    <div class="w3-container">
+    <p>Stardust Crusaders is the third part of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from March 1989 to April 1992. Originally titled as JoJo's Bizarre Adventure Part 3 Jotaro Kujo: Heritage for the Future, the arc is preceded by Battle Tendency and spans 152 chapters.</p>
+    <p>From 1988 to 1989, the story follows Jotaro Kujo and his friends as they journey from Tokyo to Cairo to save his mother's life by defeating his family's resurrected archenemy, DIO.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Stardust_Crusaders" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div> 
+    
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Diamond is Unbreakable</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FMainPagePart4.png?v=1564536662872" style="width:100%">
+    <div class="w3-container">
+    <p>Diamond is Unbreakable, alternatively Diamond is not Crash, is the fourth part of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from May 1992 to December 1995. Originally titled JoJo's Bizarre Adventure Part 4: Josuke Higashikata, the arc spans 174 chapters and is preceded by Stardust Crusaders.</p>
+    <p>In 1999, the Arrow, manifesting latent Stand abilities, travels throughout Morioh, Japan; as high schooler Josuke Higashikata (illegitimate son of Joseph(the second JOJO)) and his friends seek out the culprits of a series of homicides.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Diamond_is_Unbreakable" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Golden Wind</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FMainPagePart5.png?v=1564536736106" style="width:100%">
+    <div class="w3-container">
+    <p>Golden Wind, is the fifth story arc of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from December 1995 to April 1999. Originally titled JoJo's Bizarre Adventure Part 5 Giorno Giovanna: Golden Heritage, the arc spans a total of 155 chapters and takes place after Diamond is Unbreakable.</p>
+    <p>Set in 2001 Italy, the story follows Giorno Giovanna and his dream to rise within the Neapolitan mafia and defeat the boss of Passione, the most powerful and influential gang, in order to become a "Gang-Star". With the aid of a capo and his men, and fueled by his own resolve, Giorno sets out to fulfill his goal of absolving the mafia of its corruption.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Vento_Aureo" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+  
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Stone Ocean</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fmaxresdefault.jpg?v=1564626672850" style="width:100%">
+    <div class="w3-container">
+    <p>Stone Ocean is the sixth part of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from January 2000 to April 2003. Originally titled JoJo's Bizarre Adventure Part 6 Jolyne Cujoh: Stone Ocean, the arc spans 158 chapters and is preceded by Vento Aureo.</p>
+    <p>In 2011, Florida; Jolyne Cujoh, daughter of Jotaro, is wrongfully accused of a crime she didn't commit and sent to a maximum security prison. While imprisoned, she struggles within a longstanding plot agreed between dead villain DIO and ideologue Enrico Pucci.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Stone_Ocean" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>Steel Ball Run</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fwp4353654-steel-ball-run-wallpapers.png?v=1564626371652" style="width:100%">
+    <div class="w3-container">
+    <p>Steel Ball Run is the seventh part of JoJo's Bizarre Adventure, serialized in Weekly Shonen Jump in 2004 and in Ultra Jump between 2005 and 2011.
+
+Set in the U.S. in 1890, the story follows Johnny Joestar, a paraplegic ex-jockey, and Gyro Zeppeli, master in a mystic art named the Spin, as they compete with a vast number of others in the Steel Ball Run race: a mad-dash across America for a grand prize of 50 million dollars.
+
+Steel Ball Run describes a new continuity apart from that detailed in Part 1-6 of the series. On top of core features to JoJo such as Stands, the story is marked by many references to the original series.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/Steel_Ball_Run" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    
+  <div class="w3-card-4 w3-margin">
+    <header class="w3-container">
+    <h1>JoJolion</h1>
+    </header>
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FJojolionmain.png?v=1564536735420" style="width:100%">
+    <div class="w3-container">
+    <p>JoJolion is the award-winning eighth part of JoJo's Bizarre Adventure, which has been serialized in Ultra Jump since May 2011.
+
+The story begins in 2011 and follows Josuke Higashikata, a young man afflicted by retrograde amnesia, in his search to uncover his identity in Morioh Town, a coastal Japanese town affected by the Tohoku earthquakeW. However, his digging pulls him and his adoptive family into the unfinished business between his previous life and an impending inhuman threat.
+
+JoJolion represents the second part of the series set in the Steel Ball Run Universe.</p>
+    </div>
+    <footer class="w3-container">
+    <p><a href="https://jojo.fandom.com/wiki/JoJolion" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+    </footer>
+   </div>
+    <div class="w3-panel w3-leftbar">
+      <p><i>"There are times when a gentleman has to be courageous and fight, even when his opponent is bigger than he is and he knows he's going to lose!"</i></p>
+      <p>--<strong>Jonathan Joestari</strong> Part1 Chapter 1</p>
+      <div class="w3-content w3-section w3-padding-10" style="max-width:500px">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_1.jpg?v=1563842074603" alt="Part 1" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_2.jpg?v=1563842258502" alt="Part 2" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_3.jpg?v=1563842262430" alt="Part 3" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_4.jpg?v=1563842266653" alt="Part 4" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_5.jpg?v=1563842276280" alt="Part 5" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_6.jpg?v=1563842282538" alt="Part 6" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_7.jpg?v=1563842284429" alt="Part 7" style="width:50%">
+     <img class="mySlides" src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FVolume_8.jpg?v=1563842288328" alt="Part 8" style="width:50%">
+    </div>
+    </div>
+  </div>
+ </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+    
+ 
+
+    
+    
+  
+<div class="w3-sand w3-large">
+ <div class="w3-container">
+  <div class="w3-content" style="max-width:700px font-family: 'Vollkorn', serif">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT AUTHOR</span></h5>
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FJojo_in_paris_15.png?v=1564714464229" style="width:100%">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Hirohiko Araki</h2>
+          </div>
+        </div>
+          <div class="w3-container">
+            <p>Japanese Name: 荒木 飛呂彦</p>
+            <p>Gender: Male</p>
+            <p>Birthday: June 7, 1960 </p>
+            <p>Birthplace: endai, Miyagi, Japan</p>
+            <p>Nationality: Japanese</p>
+            <p>Occupation: Cartoonist</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-left">
+          <h2 class="w3-text-black w3-padding-16">Hirohiko Araki</h2>
+          <p>
+            Hirohiko Araki (荒木 飛呂彦 Araki Hirohiko, born June 7, 1960 in Sendai, Miyagi) is a mangaka and author of JoJo's Bizarre Adventure, on which this wikia project is based. 
+            He made his debut under the name Toshiyuki Araki (荒木 利之 Araki Toshiyuki) in 1980 with his one-shot Poker Under Arms, and began his professional career with the short series Cool Shock B.T., Baoh, and Gorgeous Irene.
+          </p>
+          <p>
+            His work on JoJo's Bizarre Adventure is divided into several parts and continues to be serialized for 30 years, totaling 122 volumes (as of December 2018), circulating over 100 million copies (July 2019). 
+            His style has been described as an "experimental, but definitive approach."
+          </p>
+          <h3>FAMILY</h3>
+          <p>
+            Married to Asami Araki (荒木麻美 Araki Asami), Araki is the father of two girls. A couple years after his debut, Araki met Asami in a group meet-up, and the two got married three months later.
+          </p>
+          <p><a href="https://jojo.fandom.com/wiki/Hirohiko_Araki" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
+          
+          <div class="w3-panel w3-leftbar">
+           <p><i>"I'd say living with a positive outlook is the theme of JoJo. It's a celebration of humanity."</i></p>
+            <p>--<strong>Hirohiko Araki</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  
+
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large w3-margin-top">
+  <p>Made by Pin Wu, HVHS 11GU</p>
+</footer>
+
+<script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
