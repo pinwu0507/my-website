@@ -19,9 +19,6 @@ body, html {
   min-height: 75%;
 }
 
-.parts {
-  display: none;
-}
 </style>
 <body>
 
@@ -43,10 +40,13 @@ body, html {
 </header>
 
 
-<div class="w3-sand w3-large">
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT JOJO</span></h5>
+<div class="w3-container" id="about">  
+  <div class="w3-panel w3-bottombar">
+  <h1 class="w3-center">ABOUT JOJO</h1>
+  </div>
+ <div class="w3-sand w3-large w3-white">
+  <div class="w3-content" >
+   <div class="w3-twothird"> 
     <p>JoJo's Bizarre Adventure is a Japanese comic series written and illustrated by Hirohiko Araki. It’s one of the most famous and influential mangas ever, which was finally adapted into an anime in 2012. JoJo’s Bizarre Adventure is one the most outrageous and joyous series I have ever watched.</p>
     <p>JoJo’s Bizarre Adventure is the story of the Joestar family, starting with Jonathan, a mild-mannered Englishman who strikes up a rivalry with Dio Brando, his adopted brother. Because of a cursed mask, Dio becomes a powerful vampire, and Jonathan swears to stop him.
     After learning a fighting move called the “Ripple”, which allows Jonathan to kill vampires by punching the sun into them, he goes on a quest to defeat Dio for good.
@@ -61,25 +61,36 @@ body, html {
     <p>
      Describing what JoJo’s Bizarre Adventure is about is much harder than describing its pedigree. You owe it to yourself to experience it. 
     </p>
-    <div class="w3-panel w3-leftbar">
-      <p><i>"What is "courage"? "Courage" is knowing fear and making that fear your own!"</i></p>
-      <p>--<strong>Will Anthonio Zeppeli</strong> Part1 Chapter 22</p>
-      
-    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FAAAABUfKk9q24A0SBqCRDJfliCKN-0lrE0RB2EcxsJOA_YfrSGdRcgdB_Lle83L3pcOnffjHPHy7axk8pa1gWK6s0F27bmmHEW0ZN4CbjZ1--bAb8FdmDI4-yQBeisgOdBIazZ6lwNnfJov2_IvFcgjl1IdkaU6Fj8_LPvM.png?v=1563840118788" style="width:100%;max-width:1000px" class="w3-margin-top">
-    </div>
   </div>
- </div>
+    
+    <div class="w3-third">
+      <iframe class="w3-margin" width="562" height="316" src="https://www.youtube.com/embed/lgIuhkG63_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="w3-margin" width="562" height="316" src="https://www.youtube.com/embed/3PFagLd6Jh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div class="w3-center">
+      <div class="w3-half">
+      <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FAAAABUfKk9q24A0SBqCRDJfliCKN-0lrE0RB2EcxsJOA_YfrSGdRcgdB_Lle83L3pcOnffjHPHy7axk8pa1gWK6s0F27bmmHEW0ZN4CbjZ1--bAb8FdmDI4-yQBeisgOdBIazZ6lwNnfJov2_IvFcgjl1IdkaU6Fj8_LPvM.png?v=1563840118788" style="width:70%">  
+      </div>
+      <div class="w3-half">
+      <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FJojo_s_bizarre_adv_logo_hd_by_muums-d464ymu.png?v=1565920433865" style="width:70%">
+      </div>
+    </div>
+   </div> 
+  </div>
 </div>
   
 <div class="w3-sand w3-large w3-light-grey">
+  <div class="w3-panel w3-bottombar">
+   <h1 class="w3-center">ABOUT JOJO</h1>
+  </div>
  <div class="w3-container" id="parts">
-  <div class="w3-content" style="max-width:700px">
-  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">EACH PARTS</span></h5>
+  <div class="w3-content">
    <div class="w3-card-4 w3-margin">
     <header class="w3-container">
     <h1>Phantom Blood</h1>
     </header>
-    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2FEpisode_2.png?v=1564537239114" style="width:100%">
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fjjba_pb.jpg?v=1565745962648" style="width:100%">
     <div class="w3-container">
     <p>Phantom Blood is the first story arc of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from January to October 1987 for a total of 44 chapters. Originally known as JoJo's Bizarre Adventure Part 1 Jonathan Joestar: His Youth, it debuted in Shonen Jump double issue #1-2 on December 2, 1986. It was licensed and released in North America by VIZ Media.</p>
     <p>The story follows Jonathan Joestar as he matures with and eventually combats his adoptive brother, the cunning and merciless Dio Brando.</p>
@@ -87,14 +98,13 @@ body, html {
     <footer class="w3-container">
     <p><a href="https://jojo.fandom.com/wiki/Phantom_Blood" class="w3-button w3-border w3-hover-light-blue">Know more</a></p>
     </footer>
-     
    </div>
     
   <div class="w3-card-4 w3-margin">
     <header class="w3-container">
     <h1>Battle Tendency</h1>
     </header>
-    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fs-l640.jpg?v=1564626586908" style="width:100%">
+    <img src="https://cdn.glitch.com/8d1ebbaf-f224-485b-b8de-9ea772e7e157%2Fnn8c.jpg?v=1565655190009" style="width:100%">
     <div class="w3-container">
     <p>Battle Tendency is the second story arc of JoJo's Bizarre Adventure, serialized in Weekly Shōnen Jump from November 1987 to March 1989. Originally titled JoJo's Bizarre Adventure Part 2 Joseph Joestar: His Proud Lineage, the arc is preceded by Phantom Blood and spans a total of 69 chapters.</p>
     <p>Taking place in 1938-39, the story follows the misadventures of Joseph Joestar, grandson of Jonathan, as he masters his innate Ripple abilities in order to combat hostile, ancient super-beings named the Pillar Men, creators of the Stone Mask that plot to become the ultimate lifeforms.</p>
@@ -232,7 +242,7 @@ function carousel() {
     
     
   
-<div class="w3-sand w3-large">
+<div class="w3-sand w3-large w3-white">
  <div class="w3-container">
   <div class="w3-content" style="max-width:900px; font-family:'Vollkorn', serif">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT AUTHOR</span></h5>
@@ -285,7 +295,7 @@ function carousel() {
   
 
 
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large w3-margin-top">
+<footer class="w3-center w3-padding-48 w3-large w3-margin-top w3-blue-grey">
   <p>Made by Pin Wu, HVHS 11GU</p>
 </footer>
 
@@ -308,4 +318,6 @@ document.getElementById("myLink").click();
 
 </body>
 </html>
+
+
 
